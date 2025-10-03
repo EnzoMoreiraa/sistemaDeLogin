@@ -1,9 +1,9 @@
 # sistemaDeLogin
 
-create database integracao_api;
+create database integracao_api;<br>
 use integracao_api;
  
-drop table if exists usuarios;
+drop table if exists usuarios;<br>
 create table usuarios(
 	id int auto_increment primary key,
     nome varchar(100) not null,
